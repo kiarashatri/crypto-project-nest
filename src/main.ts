@@ -32,4 +32,6 @@ async function bootstrap() {
   // start listening app
   await app.listen(process.env.LISTENING_PORT || 4000);
 }
+
+// start initial
 bootstrap();
